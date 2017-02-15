@@ -4,8 +4,8 @@
 
 ####Design a convolutional neural network that autonomously drives a car in a [game simulator](https://github.com/udacity/self-driving-car-sim). CNN directly predicts the steering angles with given image of front camera in the car.
 
-####[**Video demo 1**](https://www.youtube.com/watch?v=Lo3ZVuO2jLM) driving on the trained track 1
-####[**Video demo 2**](https://www.youtube.com/watch?v=QhQUy30ZPNk&t=1s) driving on an unseen track 2
+####[**Autonomous driving demo 1**](https://www.youtube.com/watch?v=Lo3ZVuO2jLM) driving on the trained track 1
+####[**Autonomous driving demo 2**](https://www.youtube.com/watch?v=QhQUy30ZPNk&t=1s) driving on an unseen track 2
 
 
 ![screen_shot][image1]

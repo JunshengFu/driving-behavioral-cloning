@@ -121,7 +121,7 @@ Then after a few test with my network, I found it doesn't perform well in sharp 
 ![alt text][image9]
 
 
-When we process the left and right camera, we add correction for their steering angles because we only know the ground-truth steering angle for the front camera (as given by Udacity simulator). Therefore, it may introduce some small errors for the steering angles of left and right images. So, I decided that in the validation data, I only use the center camera. Finally randomly shuffled the data set and put 30% of the data into a validation set (code line 214). 
+When we process the left and right camera, we add corrections (+0.2 or -0.2) for their steering angles because we only know the ground-truth steering angle for the center camera (as given by Udacity simulator). Therefore, it may introduce some small errors for the steering angles of left and right images. So, I decided that in the validation data, I only use the center camera. Finally randomly shuffled the data set and put 30% of the data into a validation set (code line 214). 
 
 I used this training data for training the model. The validation set helped determine if the model was over or under fitting. 
 The ideal number of epochs was 4 as evidenced by the validation loss is not getting lower anymore. I used an adam optimizer so that manually training the learning rate wasn't necessary.

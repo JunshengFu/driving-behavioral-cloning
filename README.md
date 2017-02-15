@@ -117,6 +117,7 @@ data augmentation and data balancing, I had 11120 number of data points.
 ![alt text][image8]
 
 **Image Crop**
+
 In the image, the up part (sky) and bottom part (front part of the car) are not very useful for training, and on the other hand, it might lead to overfitting. 
 So that I decided to crop out only the most useful part, and this is done in GPU for efficiency (model.py line 144) 
 

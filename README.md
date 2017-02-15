@@ -90,7 +90,7 @@ associate the corresponding image from the **left camera** with a somewhat **sof
 In the simulator, we can also weave all over the road and turn recording on and off to record recovery driving. However, in a real car, that’s not really possible, or at least not legally.
 So, I decided not to record the vehicle recovering from the left side and right sides of the road back to center.
 
-Then after a few test with my networ, I found it performs poorly in making turns, so I record a few more driving examples in turning for my network to learn.
+Then after a few test with my network, I found it doesn't perform well in sharp turns, so I record a few more driving examples in turning for my network to learn.
 
 
 **Data Augmentation** 

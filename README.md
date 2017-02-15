@@ -130,11 +130,10 @@ The ideal number of epochs was 4 as evidenced by the validation loss is not gett
 
 ####2. Model Design Approach
 
-My first attempt was to use a convolution neural network model similar to the [LeNet](http://eblearn.sourceforge.net/lib/exe/lenet5.png), however it performs not that good high loss in both training and validation. 
-So, I take two approaches: (1) **balance the training data** as well as (2) **change the mode** similar to [VGG net - with configuration A](https://arxiv.org/pdf/1409.1556.pdf) 
+My first attempt was to use a convolution neural network model similar to the [LeNet](http://eblearn.sourceforge.net/lib/exe/lenet5.png), however it doesn't performs well enough, high loss in both training and validation. 
+So, I take two approaches: (1) **balance the training data** as well as (2) **change the model** similar to [VGG net - with configuration A](https://arxiv.org/pdf/1409.1556.pdf) 
 
-My proposed mode is derived from VGG and LeNet, which is mor complex than LeNet but simpler than VGG. Later, I found that my model had a low mean squared error on the training set but a high mean squared error on the validation set, which implied that the model was overfitting. 
-So, I added tow dropout layers into the model and reduce the number of neurons in FC layers. Then I noticed that both the train loss and validation loss are small. 
+My proposed model is derived from VGG and LeNet, which is more complex than LeNet but smaller than VGG. Later, I found that my model had a low mean squared error on the training set but a high mean squared error on the validation set, which implied that the model was overfitting. So, I added tow dropout layers into the model and reduce the number of neurons in FC layers. Then I noticed that both the train loss and validation loss are small. 
 
 In the driving test, I found that the model works on both track 1 and even an unseen track 2 without leaving the road.
 

@@ -79,15 +79,14 @@ The simulator has three cameras: a center, right and left camera. One example is
 
 To capture good driving behavior, I recorded two laps on track 1 using center lane driving. In the training stage, I use all three cameras as training inputs. This is because we need to handle the issue of recovering from being off-center driving.
 How to achieve this:
-* If we train the model to associate a given image from the center camera with a left turn, then we could also train the model to 
-associate the corresponding image from the **left camera** with a somewhat **softer** left turn. 
+* If we train the model to associate a given image from the center camera with a left turn, then we could also train the model to associate the corresponding image from the **left camera** with a somewhat **softer** left turn. 
 * And we could train the model to associate the corresponding image from the **right camera** with an even **harder** left turn.
 * To estimate the steering angle of the left and right images, I use a correction value of 0.2 (in radians) see model.py line 192 and 194. 
 
 
 ![alt text][image4]
 
-In the simulator, we can also weave all over the road and turn recording on and off to record recovery driving. However, in a real car, that’s not really possible, or at least not legally.
+In the simulator, we could also weave all over the road and turn recording on and off to record recovery driving. However, in a real car, that’s not really possible, or at least not legally.
 So, I decided not to record the vehicle recovering from the left side and right sides of the road back to center.
 
 Then after a few test with my network, I found it doesn't perform well in sharp turns, so I record a few more driving examples in turning for my network to learn.
@@ -122,8 +121,7 @@ Then after a few test with my network, I found it doesn't perform well in sharp 
 ![alt text][image9]
 
 
-Because I we add correction for the steering angles of left and right image, it may introduce some small errors. So in the validation data, I only use the center camera.
-I finally randomly shuffled the data set and put 30% of the data into a validation set (code line 214). 
+When we process the left and right camera, we add correction for their steering angles because we only know the ground-truth steering angle for the front camera (as given by Udacity simulator). Therefore, it may introduce some small errors for the steering angles of left and right images. So, I decided that in the validation data, I only use the center camera. Finally randomly shuffled the data set and put 30% of the data into a validation set (code line 214). 
 
 I used this training data for training the model. The validation set helped determine if the model was over or under fitting. 
 The ideal number of epochs was 4 as evidenced by the validation loss is not getting lower anymore. I used an adam optimizer so that manually training the learning rate wasn't necessary.

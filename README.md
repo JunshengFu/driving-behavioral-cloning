@@ -2,7 +2,7 @@
 
 ##Objective
 
-####Coded a Deep Neural Network to Steer a Car in a [game simulator](https://github.com/udacity/self-driving-car-sim). Neural Network directly predicts the steering angles from the image of front camera in the car. The training data is only collected in track 1 and the neural network learn to drive the car on different tracks.
+####Coded a Deep Neural Network to Steer a Car in a [game simulator](https://github.com/udacity/self-driving-car-sim). Neural Network directly predicts the steering angles from the image of front camera in the car. The training data is only collected in track 1 by manually driving two laps and the neural network learns to drive the car on different tracks.
 
 ####[**Autonomous driving demo 1**](https://www.youtube.com/watch?v=Lo3ZVuO2jLM) driving on the trained track 1
 ####[**Autonomous driving demo 2**](https://www.youtube.com/watch?v=QhQUy30ZPNk&t=1s) driving on an unseen track 2

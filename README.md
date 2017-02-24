@@ -30,9 +30,9 @@
 * [images](images) folder contains the sample images
 
 ####2. Pre-built simulator
-[Linux](https://goo.gl/TvuAUq)
-[Mac](https://goo.gl/awhcEN)
-[Windows](https://goo.gl/71pr4d)
+* [Linux](https://goo.gl/TvuAUq)
+* [Mac](https://goo.gl/awhcEN)
+* [Windows](https://goo.gl/71pr4d)
 
 You can also try to build yourself from [here](https://github.com/udacity/self-driving-car-sim)
 

@@ -34,7 +34,7 @@
 * [Mac](https://goo.gl/awhcEN)
 * [Windows](https://goo.gl/71pr4d)
 
-You can also try to build yourself from [here](https://github.com/udacity/self-driving-car-sim)
+You can also build it by yourself from [here](https://github.com/udacity/self-driving-car-sim).
 
 ####3. How to run the code
 Using the Udacity provided simulator and my drive.py file, the car can be driven autonomously around the track by executing 

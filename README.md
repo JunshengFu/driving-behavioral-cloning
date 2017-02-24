@@ -29,13 +29,20 @@
 * [README.md](README.md) summarizing the results
 * [images](images) folder contains the sample images
 
-####2. How to run the code
+####2. Pre-built simulator
+[Linux](https://goo.gl/TvuAUq)
+[Mac](https://goo.gl/awhcEN)
+[Windows](https://goo.gl/71pr4d)
+
+You can also try to build yourself from [here](https://github.com/udacity/self-driving-car-sim)
+
+####3. How to run the code
 Using the Udacity provided simulator and my drive.py file, the car can be driven autonomously around the track by executing 
 ```sh
 python drive.py model.h5
 ```
 
-####3. Dependencies & my environment
+####4. Dependencies & my environment
 
 Anaconda is used for managing my [**dependencies**](https://github.com/udacity/CarND-Term1-Starter-Kit).
 
@@ -43,6 +50,7 @@ Anaconda is used for managing my [**dependencies**](https://github.com/udacity/C
 
 My computer setting is as follows:
 * GeForce GTX 980M, Intel Core i7@2.7GHzx8, 32G memory, Ubuntu 16.04
+
 
 ---
 ###Model Architecture and Training Strategy

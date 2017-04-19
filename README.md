@@ -66,7 +66,7 @@ python drive.py model.h5
 (4) Test your model in **AUTONOMOUS MODE** (following steps in 4).
 
 
-#### Release History
+#### 6. Release History
 
 * 0.1.1
     * Update the documentation

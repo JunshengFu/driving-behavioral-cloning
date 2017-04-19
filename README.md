@@ -66,6 +66,15 @@ python drive.py model.h5
 (4) Test your model in **AUTONOMOUS MODE** (following steps in 4).
 
 
+#### Release History
+
+* 0.1.1
+    * Update the documentation
+    * Date 19 April 2017
+
+* 0.1.0
+    * The first proper release
+    * Date 15 Feb 2017
 
 ---
 ### Model Architecture and Training Strategy
@@ -159,18 +168,6 @@ So, I take two approaches: (1) **balance the training data** as well as (2) **ch
 My proposed model is derived from VGG and LeNet, which is more complex than LeNet but smaller than VGG. Later, I found that my model had a low mean squared error on the training set but a high mean squared error on the validation set, which implied that the model was overfitting. So, I added tow dropout layers into the model and reduce the number of neurons in FC layers. Then I noticed that both the train loss and validation loss are small. 
 
 In the driving test, I found that the model works on both track 1 and even an unseen track 2 without leaving the road.
-
----
-
-## Release History
-
-* 0.1.1
-    * Update the documentation
-    * Date 19 Apirl 2017
-
-* 0.1.0
-    * The first proper release
-    * Date 15 Feb 2017
     
 
 [//]: # (References)

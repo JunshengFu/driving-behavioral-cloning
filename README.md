@@ -160,8 +160,18 @@ My proposed model is derived from VGG and LeNet, which is more complex than LeNe
 
 In the driving test, I found that the model works on both track 1 and even an unseen track 2 without leaving the road.
 
+---
 
+## Release History
 
+* 0.1.1
+    * Update the documentation
+    * Date 19 Apirl 2017
+
+* 0.1.0
+    * The first proper release
+    * Date 15 Feb 2017
+    
 
 [//]: # (References)
 

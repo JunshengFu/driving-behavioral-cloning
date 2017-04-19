@@ -4,11 +4,11 @@
 
 #### Coded a Deep Neural Network to Steer a Car in a [game simulator](https://github.com/udacity/self-driving-car-sim). Neural Network directly predicts the steering angles from the image of front camera in the car. The training data is only collected in track 1 by manually driving two laps and the neural network learns to drive the car on different tracks.
 
-#### [**Autonomous driving demo 1**](https://www.youtube.com/watch?v=Lo3ZVuO2jLM) driving on the trained track 1
-#### [**Autonomous driving demo 2**](https://www.youtube.com/watch?v=QhQUy30ZPNk&t=1s) driving on an unseen track 2
+#### [**Demo 1**](https://www.youtube.com/watch?v=Lo3ZVuO2jLM) Autonomous driving on the trained track 1
+[![gif1][gif1]](https://www.youtube.com/watch?v=Lo3ZVuO2jLM)
 
-
-![screen_shot][image1]
+#### [**Demo 2**](https://www.youtube.com/watch?v=QhQUy30ZPNk&t=1s) Autonomous driving on an unseen track 2
+[![gif2][gif2]](https://www.youtube.com/watch?v=QhQUy30ZPNk&t=1s)
 
 ---
 
@@ -45,14 +45,25 @@ Anaconda is used for managing my [**dependencies**](https://github.com/udacity/C
 My computer setting is as follows:
 * GeForce GTX 980M, Intel Core i7@2.7GHzx8, 32G memory, Ubuntu 16.04
 
-#### 4. How to run the code
+#### 4. How to run the code with pre-coumputed model
 Using the Udacity provided simulator and my drive.py file, the car can be driven autonomously around the track by following two steps:
+
 (1) Launch the Udacity simulator, and enter **AUTONOMOUS MODE**.
 
-(2) Drive the car by executing:
+(2) Drive the car by executing: 
 ```sh
 python drive.py model.h5
 ```
+
+#### 5. How to run the code with your own model
+
+(1) Launch the Udacity simulator, and enter **TRAINING MODE**.
+
+(2) Record your own manual driving sequences and save them as csv file.
+
+(3) Train your model with saved sequences.
+
+(4) Test your model in **AUTONOMOUS MODE** (following steps in 4).
 
 
 
@@ -152,7 +163,7 @@ In the driving test, I found that the model works on both track 1 and even an un
 
 
 
-[//]: # (Image References)
+[//]: # (References)
 
 [image1]: ./images/driving_sample.png
 [image2]: ./images/network_model.png 
@@ -163,3 +174,5 @@ In the driving test, I found that the model works on both track 1 and even an un
 [image7]: ./images/origin_hist.png
 [image8]: ./images/balanced_hist.png
 [image9]: ./images/crop_example.png
+[gif1]: ./images/track1.gif
+[gif2]: ./images/track2.gif

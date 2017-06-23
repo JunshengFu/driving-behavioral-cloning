@@ -23,6 +23,10 @@
 ### Code & Files
 
 #### 1. My project includes the following files
+
+(Note: the hyperlinks **only** works if you are on the homepage of this GitHub reop,
+and if you are viewing it in "github.io" you can be redirected by clicking the **View the Project on GitHub** on the top)
+
 * [model.py](model.py) containing the script to create and train the model
 * [drive.py](drive.py) for driving the car in autonomous mode
 * [model.h5](model.h5) containing a trained convolution neural network 

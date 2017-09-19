@@ -81,6 +81,7 @@ python drive.py model.h5
     * Date 15 Feb 2017
 
 ---
+
 ### Model Architecture and Training Strategy
 
 #### 1. The model architecture has been employed

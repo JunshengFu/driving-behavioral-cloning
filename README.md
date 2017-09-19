@@ -106,7 +106,7 @@ The batch_size and nb_epoch are set (model.py line 163 and 244)
 Training data was chosen to keep the vehicle driving on the road. There are three cameras (left, center, right) mounted on the front of the car, and I used all three cameras in training. This is because we need to handle the issue of recovering from being off-center.
 For details about how I created the training data, see the next section. 
 
-###Model Architecture and Training Strategy
+### Model Architecture and Training Strategy
 
 #### 1. Creation of the Training Set & Training Process
 **Camera setups**

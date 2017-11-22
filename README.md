@@ -31,6 +31,7 @@ and if you are viewing it in "github.io" you can be redirected by clicking the *
 * [drive.py](drive.py) for driving the car in autonomous mode
 * [model.h5](model.h5) containing a trained convolution neural network 
 * [README.md](README.md) summarizing the results
+* [environment-gpu.yml](environment-gpu.yml) environment file with GPU 
 * [images](images) folder contains the sample images
 
 #### 2. Pre-built simulator
@@ -45,6 +46,7 @@ You can also build it by yourself from [here](https://github.com/udacity/self-dr
 Anaconda is used for managing my [**dependencies**](https://github.com/udacity/CarND-Term1-Starter-Kit).
 
 * OpenCV3, Python3.5, Kera, CUDA8.0 are used 
+* you can use provided [environment file with GPU](environment-gpu.yml) to install the dependencies.
 
 My computer setting is as follows:
 * GeForce GTX 980M, Intel Core i7@2.7GHzx8, 32G memory, Ubuntu 16.04

@@ -50,6 +50,10 @@ Anaconda is used for managing my [**dependencies**](https://github.com/udacity/C
 
 ```sh
 conda env create -f environment-gpu.yml
+
+```
+
+```sh
 source activate evn-gpu
 ```
 

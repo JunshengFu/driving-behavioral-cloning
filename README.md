@@ -46,7 +46,11 @@ You can also build it by yourself from [here](https://github.com/udacity/self-dr
 Anaconda is used for managing my [**dependencies**](https://github.com/udacity/CarND-Term1-Starter-Kit).
 
 * OpenCV3, Python3.5, Kera, CUDA8.0 are used 
-* you can use provided [environment file with GPU](environment-gpu.yml) to install the dependencies.
+* you can use provided [environment file with GPU](environment-gpu.yml) to install the dependencies, by
+
+'''
+conda env create -f environment-gpu.yml
+'''
 
 My computer setting is as follows:
 * GeForce GTX 980M, Intel Core i7@2.7GHzx8, 32G memory, Ubuntu 16.04
